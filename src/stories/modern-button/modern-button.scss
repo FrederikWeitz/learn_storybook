@@ -1,0 +1,130 @@
+@import './_colors.scss';
+@import './_font.scss';
+
+.modern-button{
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+
+  &:hover {
+    position: relative;
+    top: -2px;
+    left: -2px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+  }
+
+  &--lightFont {
+    color: $light;
+  }
+  &--darkFont {
+    color: $dark;
+  }
+
+  &--primary {
+    background-color: $primaryBlue;
+
+    &-borderColor {
+      border: 2px solid $primaryBlue;
+    }
+  }
+  &--success {
+    background-color: $successGreen;
+
+    &-borderColor {
+      border: 2px solid $successGreen;
+    }
+  }
+  &--danger {
+    background-color: $dangerPink;
+
+    &-borderColor {
+      border: 2px solid $dangerPink;
+    }
+  }
+  &--warning {
+    background-color: $warningYellow;
+
+    &-borderColor {
+      border: 2px solid $warningYellow;
+    }
+  }
+  &--info {
+    background-color: $infoBlue;
+
+    &-borderColor {
+      border: 2px solid $infoBlue;
+    }
+  }
+  &--light {
+    background-color: $light;
+
+    &:hover {
+        background-color: orange;
+      }
+
+    &-borderColor {
+      border: 2px solid $light;
+    }
+
+    &-borderColor:hover {
+      border: 2px solid $lightHover;
+    }
+  }
+  &--dark {
+    background-color: $dark;
+
+    &-borderColor {
+      border: 2px solid $dark;
+    }
+  }
+  &--notFilled {
+    background-color: $light;
+  }
+
+  &--small {
+    @include fontSmall();
+  }
+  &--regular {
+    @include fontRegular();
+  }
+  &--large {
+    @include fontLarge();
+  }
+
+  &--square {
+    border-radius: 3px;
+  }
+
+  &--image-small {
+    @include imageSmall();
+
+    &-left {
+      padding: 0px 6px 0px 0px;
+    }
+    &-right {
+      padding: 0px 0px 0px 6px;
+    }
+  }
+  &--image-regular {
+    @include imageRegular();
+
+    &-left {
+      padding: 0px 7px 0px 0px;
+    }
+    &-right {
+      padding: 0px 0px 0px 7px;
+    }
+  }
+  &--image-large {
+    @include imageLarge();
+
+    &-left {
+      padding: 0px 9px 0px 0px;
+    }
+    &-right {
+      padding: 0px 0px 0px 9px;
+    }
+  }
+}
+

@@ -1,0 +1,17 @@
+@import '../app.component.scss';
+
+#header {
+  height: 30px;
+  font-family: $serif;
+  display: flex;
+  align-items: center;
+  color: $fontColor-dark;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px 40px;
+  background-color: $sheetColor-strong;
+}
+
+#header div {
+  background-color: $sheetColor-strong;
+}

@@ -1,0 +1,40 @@
+@mixin modernFont() {
+  font-family: 'Arial';
+  margin: 0px 16px 0px 0px;
+}
+
+@mixin fontSmall() {
+  @include modernFont();
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 13px;
+}
+
+@mixin imageSmall() {
+  width: 16px;
+  height: 16px;
+}
+
+@mixin fontRegular() {
+  @include modernFont();
+  font-size: 14px;
+  padding: 11px 16px;
+  border-radius: 22px;
+}
+
+@mixin imageRegular() {
+  width: 19px;
+  height: 19px;
+}
+
+@mixin fontLarge() {
+  @include modernFont();
+  font-size: 18px;
+  padding: 17px 24px;
+  border-radius: 31px;
+}
+
+@mixin imageLarge() {
+  width: 24px;
+  height: 24px;
+}

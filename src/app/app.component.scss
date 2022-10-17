@@ -1,0 +1,18 @@
+$serif: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$primaryColor: #606c38;
+$secondaryColor: #283618;
+$sheetColor: #fefae0;
+$sheetColor-strong: #fdf2b0;
+$sheetColor-dark: #7c6c04;
+$fontColor-dark: #1e1a01;
+$fontColor-light: #fefae0;
+$infoColor: #dda15e;
+$explanationColor: #bc6c25;
+$warningColor: #fca311;
+$errorColor: #d90429;
+
+div {
+  background-color: $sheetColor;
+  font-family: $serif;
+}

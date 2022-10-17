@@ -1,4 +1,4 @@
-# StoryBook
+c# StoryBook
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Templates
+
+[Storybook](https://storybook.js.org/tutorials/intro-to-storybook/angular/en/get-started/)
+
+[Buttons](https://uicookies.com/css-buttons/)
+
+[SVG mit Angular](https://www.trion.de/news/2020/01/02/svg-animation.html)
